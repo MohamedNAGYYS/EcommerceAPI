@@ -48,6 +48,7 @@ namespace EcommerceAPI.Service
             if (category != null){ throw new Exception("That Category Name already exists"); }
 
             await _categoryRepo.CreateCategoryRepository(dto);
+            await 
             return true;
         }
 

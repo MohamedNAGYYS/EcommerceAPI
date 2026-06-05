@@ -45,6 +45,8 @@ namespace EcommerceAPI.Repository
 
             return new ResponseProductDto
             {
+
+                CategoryID = product.CategoryID,
                 CategoryID = product.CategoryID,
                 CategoryName = product.Category.CategoryName,
                 ProductName = product.ProductName,
